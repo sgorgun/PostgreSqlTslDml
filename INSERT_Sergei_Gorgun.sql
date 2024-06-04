@@ -1,3 +1,4 @@
+DO $$
 DECLARE
     new_film_id INTEGER;
 BEGIN
@@ -33,6 +34,7 @@ BEGIN
 END $$;
 
 
+
 --The code below is to check if the rows were added to the database correctly.
 
 -- SELECT * FROM public.film
@@ -46,4 +48,3 @@ END $$;
 
 -- SELECT * FROM public.inventory
 -- ORDER BY inventory_id DESC LIMIT 10;
-
